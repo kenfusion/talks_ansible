@@ -1,5 +1,5 @@
 class: center, middle
-![python-frederick](python-frederick.png) ![ansible-logo](Ansible_logo.png)
+![python-frederick](python-frederick.png) ![ansible-logo](ansible_logo.png)
 ### Python Frederick Aug 2016
 ### Chris Malone
 [surefoot@gmail.com](mail://surefoot@gmail.com) || [github.com/kenfusion](https://github/kenfusion)
