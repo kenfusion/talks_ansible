@@ -25,7 +25,7 @@ defaults
     timeout check           10s
     maxconn                 3000
 
-listen my_awsome_app {{ hostvars[groups['lb'][0]]['ansible_eth0']['ipv4']['address'] }}:80
+listen my_awsome_app 0.0.0.0:80
     mode http
     stats enable
     stats uri /haproxy?stats
