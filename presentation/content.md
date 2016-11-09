@@ -48,7 +48,7 @@ Some tools use agents that live on the nodes that are being managed.  I prefer n
 
 ### No client/server
 ???
-Some tools require a centralized server to manager all the nodes.   With ansible you can manage your nodes from a centralized server or your laptop.  Nodes can also manage themselves as well with simple cron jobs.
+Some tools require a centralized server to manage all the nodes.   With ansible you can manage your nodes from a centralized server or your laptop.  Nodes can also manage themselves as well with simple cron jobs.
 --
 
 ### Uses established SSH trust
@@ -544,7 +544,7 @@ As mentioned before you can use a notify directive in tasks.  This notfies anoth
         state: restarted
 ```
 ???
-These handlers will only run if they get a notify during the play. They will also only run once, and at the end of the play, even if multiple notifications are recieved. Here the handler restarts apache.  It's only run if this configuration file task is ran.
+These handlers will only run if they get a notify during the play. They will also only run once, and at the end of the play, even if multiple notifications are recieved. Here the handler restarts apache.  It's only run if this configruation file is changed.
 
 ---
 class: center,middle
